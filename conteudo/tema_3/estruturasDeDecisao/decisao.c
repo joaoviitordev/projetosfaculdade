@@ -3,19 +3,21 @@
 // Iniciando as Estruturas de Decisão em C
 
 int main () {
-    int a = 20;
-    int b = 20;
+    int num1 = 10;
+    int num2 = 20;
 
-    if (a == b) {
+    if (num1 == num2) {
         printf ("A variável A é igual a variável B.\n");
     } else {
         printf("A variável A é diferente da variável B.\n");
     }
 
-    int num = 40;
+    int num = 49;
 
     if (num % 2 == 0) {
         printf ("Esse número é par.");
+    } else {
+        printf("Esse número é impar.");
     }
 
     return 0;
