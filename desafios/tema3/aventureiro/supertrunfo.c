@@ -87,7 +87,7 @@ int main () {
         printf("Resultado: Carta 2 é a vencedora!\n");
     } 
     
-    // Menu interativo + Comparação de atributos
+    // Menu interativo 
     int escolha;
 
     printf("Agora você pode escolher os atributos e compará-los.\n");
@@ -100,7 +100,6 @@ int main () {
     printf("Qual sua escolha? \n");
     scanf("%d", &escolha);
 
-    // Menu
     switch (escolha) {
         case 0:
             printf("Você escolheu comparar os nomes!\n");
