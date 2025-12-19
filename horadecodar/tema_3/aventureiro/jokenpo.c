@@ -13,7 +13,7 @@ int main () {
     srand(time(NULL)); // Inicializa o gerador de números aleatórios
 
     printf("JOGO PEDRA, PAPEL OU TESOURA\n");
-    printf("Escolha uma opcao:\n");
+    printf("Escolha uma opção:\n");
     printf("0 - Pedra\n");
     printf("1 - Papel\n");
     printf("2 - Tesoura\n");
