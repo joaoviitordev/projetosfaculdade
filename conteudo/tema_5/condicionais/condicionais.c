@@ -3,7 +3,11 @@
 // Condicionais com matrizes e loops em C
 
 int main () {
-    int matriz[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+    int matriz[3][3] = {
+        {1, 2, 3}, 
+        {4, 5, 6}, 
+        {7, 8, 9}
+    };
     int evenCount = 0, addCount = 0;
     int target = 5;
     int found = 0;
